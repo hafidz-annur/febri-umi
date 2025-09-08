@@ -44,9 +44,9 @@ const data = {
   },
   lokasi: {
     tempat: "Batang Rt 01/ Rw 03 Ngarjosari Tirtomoyo Wonogiri",
-    maps_link: "https://maps.app.goo.gl/aEKKDxwxgpBWqrKJ6",
+    maps_link: "https://maps.app.goo.gl/judK31cmSGhk7d266",
     maps_embed:
-      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7903.010191526292!2d111.04022111349462!3d-7.946640592334839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7bd4e005e73971%3A0x71b26a7b4c66cde4!2sBatang%2C%20Ngarjosari%2C%20Kec.%20Tirtomoyo%2C%20Kabupaten%20Wonogiri%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1757298844884!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3951.510220132027!2d111.04043957500667!3d-7.946108292078148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwNTYnNDYuMCJTIDExMcKwMDInMzQuOSJF!5e0!3m2!1sen!2sid!4v1757326863280!5m2!1sen!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
   },
   galeri: [
     { cols: 4, foto: "img/galeri/1.jpeg" },
@@ -67,54 +67,13 @@ const data = {
   hadiah: {
     bank: [
       {
-        nama: "bca",
-        atas_nama: "Vidi Aldiano",
-        norek: "78213122",
-      },
-      {
-        nama: "bni",
-        atas_nama: "Vidi Aldiano",
-        norek: "78213122",
-      },
-      {
-        nama: "permata",
-        atas_nama: "Vidi Aldiano",
-        norek: "78213122",
-      },
-      {
-        nama: "mandiri",
-        atas_nama: "Vidi Aldiano",
-        norek: "78213122",
+        nama: "bri",
+        atas_nama: "Umi Hana Rohani",
+        norek: "695701052996535",
       },
     ],
-    ewallet: [
-      {
-        nama: "ovo",
-        atas_nama: "Vidi Aldiano",
-        norek: "78213122",
-      },
-      {
-        nama: "gopay",
-        atas_nama: "Vidi Aldiano",
-        norek: "78213122",
-      },
-      {
-        nama: "shopee",
-        atas_nama: "Vidi Aldiano",
-        norek: "78213122",
-      },
-      {
-        nama: "dana",
-        atas_nama: "Vidi Aldiano",
-        norek: "78213122",
-      },
-      {
-        nama: "linkaja",
-        atas_nama: "Vidi Aldiano",
-        norek: "78213122",
-      },
-    ],
-    alamat: "Jl. Lapangan Tenis No 212 Srengseng Jakarta Barat, DKI Jakarta",
+    ewallet: [],
+    alamat: "Batang Rt 01/ Rw 03 Ngarjosari Tirtomoyo Wonogiri",
   },
 };
 

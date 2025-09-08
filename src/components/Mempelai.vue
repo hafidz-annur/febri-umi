@@ -58,7 +58,7 @@ const props = defineProps({ data: Object });
             {{ props.data?.mempelai.wanita.nama_panggilan }}</v-btn
           >
           <p class="mb-0 text-[12px]">
-            Putra
+            Putri
             {{ props.data?.mempelai.wanita.anak_ke }} dari
           </p>
           <p class="text-[14px] mt-0">

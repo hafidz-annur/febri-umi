@@ -33,10 +33,10 @@ const menus = ref([
   //   icon: "mdi-multimedia",
   //   title: "Galeri",
   // },
-  // {
-  //   icon: "mdi-gift-open-outline",
-  //   title: "Hadiah",
-  // },
+  {
+    icon: "mdi-gift-open-outline",
+    title: "Hadiah",
+  },
   {
     icon: "mdi-send-variant-outline",
     title: "RSVP",

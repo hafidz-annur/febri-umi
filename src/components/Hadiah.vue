@@ -42,6 +42,7 @@ const copyText = (text) => {
             value="two"
             class="text-[12px]"
             :class="tab == 'two' ? 'bg-white text-gray-500' : null"
+            v-if="props.data?.hadiah?.ewallet?.length > 0"
             >E-Wallet</v-tab
           >
           <v-tab
@@ -55,7 +56,7 @@ const copyText = (text) => {
         <v-card-text>
           <v-tabs-window v-model="tab">
             <v-tabs-window-item value="one">
-              <div class="md:h-[50vh] h-[40vh] overflow-auto">
+              <div class="md:max-h-[50vh] max-h-[40vh] overflow-auto">
                 <div
                   v-for="item in props.data?.hadiah?.bank"
                   :key="item"
