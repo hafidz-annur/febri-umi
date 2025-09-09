@@ -4,7 +4,7 @@ import moment from "moment";
 
 const props = defineProps({ data: Object });
 
-const deadline = ref("2025-12-10 10:00:00");
+const deadline = ref("2025-10-16 10:00:00");
 
 const saveCalendar = () => {
   const title =
@@ -17,9 +17,9 @@ const saveCalendar = () => {
   const location = "&location=" + props.data?.acara?.resepsi?.tempat;
   const dates =
     "&dates=" +
-    moment("2025-12-10").utc().format("YYYYMMDDTHHmmss[Z]") +
+    moment("2025-10-16").utc().format("YYYYMMDDTHHmmss[Z]") +
     "%2F" +
-    moment("2025-12-10").utc().format("YYYYMMDDTHHmmss[Z]");
+    moment("2025-10-16").utc().format("YYYYMMDDTHHmmss[Z]");
 
   const url =
     "https://www.google.com/calendar/render?action=TEMPLATE" +
