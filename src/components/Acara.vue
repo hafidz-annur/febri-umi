@@ -62,7 +62,7 @@ const saveCalendar = () => {
             minutes: 'Menit',
             seconds: 'Detik',
           }"
-          :deadline="props.data?.acara?.resepsi?.raw_tanggal"
+          :deadline="deadline"
           class="animate__animated animate__zoomIn animate__delay-2s mt-3"
         />
 
